@@ -1,0 +1,27 @@
+.navegacion {
+  display: none;
+}
+
+.navegacion ul {
+  display: flex;
+  gap: 40px;
+  inline-size: 303px;
+  list-style: none;
+}
+
+.navegacion ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font: var(--button);
+  color: var(--white);
+}
+
+.navegacion ul li a.active {
+  color: var(--purple);
+}
+
+@media screen and (min-width: 768px) {
+  .navegacion {
+    display: block;
+  }
+}

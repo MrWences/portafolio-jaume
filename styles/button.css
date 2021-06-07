@@ -1,0 +1,20 @@
+.button {
+  background: var(--purple);
+  color: var(--white);
+  font: var(--button);
+  padding: 13px 24px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  letter-spacing: 1.25px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid var(--purple);
+}
+
+.button.is-secondary {
+  background: unset;
+  color: var(--purple);
+  border: 2px solid var(--purple);
+}
